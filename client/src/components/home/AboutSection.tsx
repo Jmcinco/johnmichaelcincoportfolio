@@ -28,27 +28,28 @@ export default function AboutSection() {
             variants={fadeIn("right", "", 0.1, 1)}
           >
             <div className="prose prose-lg dark:prose-invert max-w-none">
-              <p className="mb-4">
-                I'm a passionate web developer with over <span className="font-semibold">5 years of experience</span> creating engaging, high-performance web applications. My journey began with HTML, CSS, and JavaScript, and has evolved to embrace modern frameworks and technologies.
+            <p className="mb-4">
+              I'm a passionate web developer with over <span className="font-semibold">1 year of experience</span> creating secure, high-performance web applications and APIs. My journey began with HTML, CSS, and JavaScript, and has evolved to embrace modern frameworks and backend technologies.
               </p>
               <p className="mb-4">
-                I specialize in building <span className="text-blue-600 dark:text-blue-400">responsive, accessible, and user-friendly</span> interfaces that deliver exceptional user experiences. My approach combines clean code, modern design principles, and performance optimization.
-              </p>
-              <p className="mb-4">
-                When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing my knowledge through technical articles and mentoring.
-              </p>
+                I specialize in building <span className="text-blue-600 dark:text-blue-400">responsive, accessible, and secure</span> interfaces and APIs that deliver exceptional user experiences. My approach combines clean code, modern design principles, security best practices, and performance optimization.
+                </p>
+                <p className="mb-4">
+                  When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through technical articles and mentoring.
+                  </p>
+
               <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center space-x-2">
                   <FaMapMarkerAlt className="text-emerald-500" />
-                  <span>San Francisco, CA</span>
+                  <span>Caloocan, PH</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <FaGraduationCap className="text-emerald-500" />
-                  <span>B.S. Computer Science</span>
+                  <span>B.S. Information Technology</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <FaLanguage className="text-emerald-500" />
-                  <span>English, Spanish</span>
+                  <span>English</span>
                 </div>
               </div>
               <div className="mt-8">

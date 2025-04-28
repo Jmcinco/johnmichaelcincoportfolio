@@ -1,8 +1,5 @@
 import { users, type User, type InsertUser } from "@shared/schema";
 
-// modify the interface with any CRUD methods
-// you might need
-
 export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
@@ -10,6 +7,7 @@ export interface IStorage {
 }
 
 export class MemStorage implements IStorage {
+  [x: string]: any;
   private users: Map<number, User>;
   currentId: number;
 

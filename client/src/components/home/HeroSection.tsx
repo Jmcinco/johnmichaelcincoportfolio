@@ -35,13 +35,11 @@ export default function HeroSection() {
               <span className="text-blue-600 dark:text-blue-400 inline-block">
                 <TypeAnimation
                   sequence={[
-                    'Alex Parker',
+                    'John Michael Cinco',
                     2000,
                     'a Web Developer',
                     2000,
-                    'a Designer',
-                    2000,
-                    'a Problem Solver',
+                    'a Application Developer',
                     2000
                   ]}
                   wrapper="span"
@@ -108,7 +106,7 @@ export default function HeroSection() {
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-blue-500 to-violet-500 shadow-xl">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
+                src="./src/public/about.jpg" 
                 alt="Professional headshot" 
                 className="w-full h-full object-cover rounded-full p-2 bg-white dark:bg-gray-800"
               />

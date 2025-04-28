@@ -26,7 +26,7 @@ export default function Footer() {
             >
               <span className="text-2xl font-bold tracking-tight">
                 <span className="text-emerald-500">&lt;</span>
-                DevPortfolio
+                14MJ3Y3M
                 <span className="text-emerald-500">/&gt;</span>
               </span>
             </a>
@@ -52,7 +52,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Alex Parker. All rights reserved.
+            &copy; {new Date().getFullYear()} 14MJ3Y3M. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-400 transition-colors">

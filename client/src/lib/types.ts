@@ -15,7 +15,7 @@ export type ExperienceType = {
   id: number;
   title: string;
   company: string;
-  description: string;
+  description: string[];
   skills: string[];
   period: string;
 };

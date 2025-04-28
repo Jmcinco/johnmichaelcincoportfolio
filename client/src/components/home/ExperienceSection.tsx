@@ -21,9 +21,7 @@ export default function ExperienceSection() {
         </motion.div>
         
         <div className="relative max-w-4xl mx-auto">
-          {/* Timeline Line */}
           <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200 dark:bg-blue-900"></div>
-          
           <motion.div
             variants={staggerContainer(0.1, 0.1)}
             initial="hidden"
@@ -36,14 +34,24 @@ export default function ExperienceSection() {
                 variants={fadeIn("up", "", index * 0.1, 0.75)}
               >
                 <TimelineItem
-                  experience={experience}
+                  experience={{
+                    ...experience,
+                    description: (
+                    <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300 text-justify">
+
+                        {experience.description.map((desc, idx) => (
+                          <li key={idx}>{desc}</li>
+                        ))}
+                      </ul>
+                    ),
+                  }}
                   isEven={index % 2 === 1}
                 />
               </motion.div>
             ))}
           </motion.div>
         </div>
-        
+
         <motion.div 
           className="text-center mt-20"
           initial="hidden"

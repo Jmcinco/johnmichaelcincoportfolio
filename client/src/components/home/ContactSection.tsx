@@ -193,7 +193,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800 dark:text-white">Email</h4>
-                  <p className="text-gray-600 dark:text-gray-300">hello@alexparker.dev</p>
+                  <p className="text-gray-600 dark:text-gray-300">jmcinco005@gmail.com</p>
                 </div>
               </div>
               
@@ -203,7 +203,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800 dark:text-white">Phone</h4>
-                  <p className="text-gray-600 dark:text-gray-300">+1 (555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-300">+639763033522</p>
                 </div>
               </div>
               
@@ -213,7 +213,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">San Francisco, CA, USA</p>
+                  <p className="text-gray-600 dark:text-gray-300">Amparo, Caloocan City, PH</p>
                 </div>
               </div>
             </div>

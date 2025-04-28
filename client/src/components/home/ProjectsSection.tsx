@@ -22,7 +22,7 @@ export default function ProjectsSection() {
           className="text-center mb-16"
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{  amount: 0.25 }}
           variants={fadeIn("up", "", 0, 1)}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white">
@@ -34,15 +34,14 @@ export default function ProjectsSection() {
           </p>
         </motion.div>
         
-        {/* Project Filter Buttons */}
         <motion.div 
           className="flex flex-wrap justify-center gap-4 mb-12"
           variants={staggerContainer(0.1, 0.1)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ amount: 0.25 }}
         >
-          {[
+          {[ 
             { label: "All", value: "all" },
             { label: "Frontend", value: "frontend" },
             { label: "Full Stack", value: "fullstack" },
@@ -63,30 +62,32 @@ export default function ProjectsSection() {
             </motion.div>
           ))}
         </motion.div>
-        
-        {/* Projects Grid */}
+
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
           variants={staggerContainer(0.1, 0.1)}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ amount: 0.25 }}
         >
-          {filteredProjects.map((project, index) => (
-            <motion.div
-              key={project.id}
-              variants={fadeIn("up", "", index * 0.1, 0.75)}
-            >
-              <ProjectCard project={project} />
-            </motion.div>
-          ))}
+          {filteredProjects.length === 0 ? (
+            <div className="col-span-full text-center text-gray-600">
+              No projects found for this filter.
+            </div>
+          ) : (
+            filteredProjects.map((project, index) => (
+              <motion.div key={project.id} variants={fadeIn("up", "", index * 0.1, 0.75)}>
+                <ProjectCard project={project} />
+              </motion.div>
+            ))
+          )}
         </motion.div>
         
         <motion.div 
           className="text-center mt-12"
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
+          viewport={{ amount: 0.25 }}
           variants={zoomIn(0.5, 0.75)}
         >
           <Button

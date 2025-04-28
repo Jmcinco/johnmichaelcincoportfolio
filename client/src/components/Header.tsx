@@ -20,12 +20,10 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
 
-  // Handle scroll event to change header appearance
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
       
-      // Update active section based on scroll position
       const sections = document.querySelectorAll("section[id]");
       let current = "";
       
@@ -45,7 +43,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Handle smooth scrolling for anchor links
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
     setMobileMenuOpen(false);
@@ -69,7 +66,6 @@ export default function Header() {
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          {/* Logo */}
           <a 
             href="#hero" 
             className="flex items-center space-x-2 text-blue-600 dark:text-blue-400"
@@ -77,12 +73,11 @@ export default function Header() {
           >
             <span className="text-2xl font-bold tracking-tight">
               <span className="text-emerald-500">&lt;</span>
-              DevPortfolio
+              14MJ3Y3M
               <span className="text-emerald-500">/&gt;</span>
             </span>
           </a>
           
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
@@ -99,7 +94,6 @@ export default function Header() {
               </a>
             ))}
             
-            {/* Theme Toggle */}
             <Button
               variant="ghost"
               size="icon"
@@ -112,7 +106,6 @@ export default function Header() {
             </Button>
           </nav>
           
-          {/* Mobile menu button */}
           <div className="flex items-center md:hidden">
             <Button
               variant="ghost"
@@ -138,7 +131,6 @@ export default function Header() {
         </div>
       </div>
       
-      {/* Mobile Navigation Menu */}
       <AnimatePresence>
         {mobileMenuOpen && (
           <motion.div

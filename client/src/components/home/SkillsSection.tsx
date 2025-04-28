@@ -1,8 +1,12 @@
 import { SkillBar } from "@/components/ui/skill-bar";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "@/lib/motion";
-import { FaReact, FaJs, FaNodeJs, FaHtml5, FaCss3Alt, FaSass, FaGitAlt, FaDocker, FaAws, FaFigma, FaDatabase, FaServer } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { PiGitlabLogoFill } from "react-icons/pi"
+import { BsGithub } from "react-icons/bs";
+import { FaReact, FaJs, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt} from "react-icons/fa";
+import { SiKibana, SiPostman, SiSonarqube, SiSplunk, SiTypescript } from "react-icons/si";
 
 const technicalSkills = [
   { name: "JavaScript / TypeScript", percentage: 95 },
@@ -25,16 +29,18 @@ const languageSkills = [
 const tools = [
   { icon: <FaReact />, name: "React" },
   { icon: <FaJs />, name: "JavaScript" },
-  { icon: <SiTypescript />, name: "TypeScript" },
-  { icon: <FaNodeJs />, name: "Node.js" },
+  { icon: <DiMongodb />, name: "MongoDB" },
+  { icon: <BsGithub />, name: "GitHub" },
+  { icon: <BiLogoPostgresql />, name: "PostgreSQL" },
   { icon: <FaHtml5 />, name: "HTML5" },
   { icon: <FaCss3Alt />, name: "CSS3" },
-  { icon: <FaSass />, name: "Sass" },
+  { icon: <SiSonarqube />, name: "Sonarqube" },
+  { icon: <PiGitlabLogoFill />, name: "Gitlab" },
   { icon: <FaGitAlt />, name: "Git" },
-  { icon: <FaDocker />, name: "Docker" },
-  { icon: <FaAws />, name: "AWS" },
-  { icon: <FaFigma />, name: "Figma" },
-  { icon: <FaDatabase />, name: "MongoDB" },
+  { icon: <SiPostman />, name: "Postman" },
+  { icon: <SiSplunk />, name: "Splunk" },
+  { icon: <SiKibana />, name: "Kibana" },
+  { icon: <DiMongodb />, name: "MongoDB" },
 ];
 
 export default function SkillsSection() {

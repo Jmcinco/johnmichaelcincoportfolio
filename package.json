@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jmportfolio.github.io",
+  "homepage": "http://Jmcinco.github.io/jmportfolio",
   "name": "rest-express",
   "version": "1.0.0",
   "type": "module",
@@ -13,7 +13,7 @@
     "db:push": "drizzle-kit push",
     "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist/public"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

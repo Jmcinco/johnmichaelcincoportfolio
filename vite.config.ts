@@ -15,7 +15,7 @@ export default defineConfig({
         ]
       : []),
   ],
-  base: "/mypersonalportfolio/",
+  base: "/johnmichaelcincoportfolio/",
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),

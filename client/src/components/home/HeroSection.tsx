@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaTwitter, FaCodepen, FaChevronDown } from "react-icons/fa";
 import { fadeIn, slideIn, textVariant } from "@/lib/motion";
+import about from "/images/about.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 export default function HeroSection() {
@@ -106,7 +107,7 @@ export default function HeroSection() {
           >
             <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-blue-500 to-violet-500 shadow-xl">
               <img 
-                src="./src/public/about.jpg" 
+                src={`${import.meta.env.BASE_URL}images/about.jpg`}
                 alt="Professional headshot" 
                 className="w-full h-full object-cover rounded-full p-2 bg-white dark:bg-gray-800"
               />

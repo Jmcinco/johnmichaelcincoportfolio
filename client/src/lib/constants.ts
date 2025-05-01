@@ -9,8 +9,8 @@
       technologies: ["WordPress", "Elementor"],
       category: "fullstack",
       completedDate: "Mar 2023",
-      codeUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      codeUrl: "#",
+      liveUrl: "#",
       detailsUrl: "#",
     },
     {
@@ -21,8 +21,8 @@
       technologies: ["WordPress", "Elementor"],
       category: "frontend",
       completedDate: "Mar 2023",
-      codeUrl: "https://github.com",
-      liveUrl: "https://example.com",
+      codeUrl: "#",
+      liveUrl: "#",
       detailsUrl: "#",
     },
   ];

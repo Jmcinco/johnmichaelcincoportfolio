@@ -9,9 +9,9 @@
       technologies: ["WordPress", "Elementor"],
       category: "fullstack",
       completedDate: "Mar 2023",
-      codeUrl: "#",
-      liveUrl: "#",
-      detailsUrl: "#",
+      codeUrl: "javascript:void(0)",
+      liveUrl: "javascript:void(0)",
+      detailsUrl: "javascript:void(0)",
     },
     {
       id: 2,
@@ -21,9 +21,9 @@
       technologies: ["WordPress", "Elementor"],
       category: "frontend",
       completedDate: "Mar 2023",
-      codeUrl: "#",
-      liveUrl: "#",
-      detailsUrl: "#",
+      codeUrl: "javascript:void(0)",
+      liveUrl: "javascript:void(0)",
+      detailsUrl: "javascript:void(0)",
     },
   ];
 

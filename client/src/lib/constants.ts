@@ -25,6 +25,18 @@
       liveUrl: "javascript:void(0)",
       detailsUrl: "javascript:void(0)",
     },
+    {
+      id: 2,
+      title: "Online Restaurant Reservation System for PiggyWings",
+      description: "Capstone Project",
+      image: "./images/piggywings.png",
+      technologies: ["Bootstrap", "PHP", "MySQL"],
+      category: "fullstack",
+      completedDate: "Mar 2023",
+      codeUrl: "javascript:void(0)",
+      liveUrl: "javascript:void(0)",
+      detailsUrl: "javascript:void(0)",
+    },
   ];
 
   export const experiences: ExperienceType[] = [

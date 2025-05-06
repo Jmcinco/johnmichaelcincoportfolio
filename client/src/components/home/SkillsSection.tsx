@@ -10,20 +10,10 @@ import { SiKibana, SiPostman, SiSonarqube, SiSplunk, SiTypescript } from "react-
 
 const technicalSkills = [
   { name: "JavaScript / TypeScript", percentage: 95 },
-  { name: "React / Next.js", percentage: 90 },
-  { name: "HTML5 / CSS3", percentage: 95 },
-  { name: "Node.js / Express", percentage: 85 },
+  { name: "ReactJS", percentage: 90 },
+  { name: "HTML5 / TailwindCSS", percentage: 95 },
+  { name: "Python", percentage: 85 },
   { name: "MongoDB / SQL", percentage: 80 },
-];
-
-const languageSkills = [
-  "JavaScript",
-  "TypeScript",
-  "HTML",
-  "CSS",
-  "Python",
-  "SQL",
-  "PHP",
 ];
 
 const tools = [
@@ -125,24 +115,6 @@ export default function SkillsSection() {
           viewport={{ once: true, amount: 0.25 }}
           variants={fadeIn("up", "", 0.2, 1)}
         >
-          <h3 className="text-2xl font-semibold mb-6 text-center text-gray-800 dark:text-white">Languages I Speak</h3>
-          <motion.div 
-            className="flex flex-wrap justify-center gap-4 mt-8"
-            variants={staggerContainer(0.1, 0.1)}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, amount: 0.25 }}
-          >
-            {languageSkills.map((language, index) => (
-              <motion.div
-                key={language}
-                variants={fadeIn("up", "", index * 0.1, 0.75)}
-                className="bg-white dark:bg-gray-800 px-6 py-3 rounded-full shadow-md"
-              >
-                <span className="text-blue-600 dark:text-blue-400 font-mono">{language}</span>
-              </motion.div>
-            ))}
-          </motion.div>
         </motion.div>
       </div>
     </section>

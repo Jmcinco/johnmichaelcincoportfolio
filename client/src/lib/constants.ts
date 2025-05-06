@@ -36,7 +36,7 @@
       codeUrl: "javascript:void(0)",
       liveUrl: "javascript:void(0)",
       detailsUrl: "javascript:void(0)",
-    },
+    }
   ];
 
   export const experiences: ExperienceType[] = [

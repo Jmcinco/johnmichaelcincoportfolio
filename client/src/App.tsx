@@ -14,7 +14,6 @@ import ProjectsSection from "./components/home/ProjectsSection";
 import ContactSection from "./components/home/ContactSection";
 import Footer from "./components/Footer";
 
-// Define the Home page as a combination of sections
 const HomePage = () => (
   <>
     <HeroSection />

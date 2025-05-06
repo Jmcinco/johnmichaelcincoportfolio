@@ -33,9 +33,9 @@
       technologies: ["Bootstrap", "PHP", "MySQL"],
       category: "fullstack",
       completedDate: "Mar 2022",
-      codeUrl: "javascript:void(0)",
-      liveUrl: "javascript:void(0)",
-      detailsUrl: "javascript:void(0)",
+      codeUrl: "https://github.com/Jmcinco/Online-Restaurant-Reservation-System.git",
+      liveUrl: "https://github.com/Jmcinco/Online-Restaurant-Reservation-System.git",
+      detailsUrl: "https://github.com/Jmcinco/Online-Restaurant-Reservation-System.git",
     }
   ];
 

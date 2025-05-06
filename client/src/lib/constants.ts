@@ -32,7 +32,7 @@
       image: "./images/piggywings.png",
       technologies: ["Bootstrap", "PHP", "MySQL"],
       category: "fullstack",
-      completedDate: "Mar 2023",
+      completedDate: "Mar 2022",
       codeUrl: "javascript:void(0)",
       liveUrl: "javascript:void(0)",
       detailsUrl: "javascript:void(0)",
